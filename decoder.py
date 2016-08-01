@@ -185,7 +185,7 @@ if __name__ == '__main__':
         f = open('data/mission.sqm')
         file_str = f.read()
         obj = scan_sqm(file_str)
-        print obj
+        print "mission.sqm data: {}".format(str(obj))
 
 
     test_attribute()
