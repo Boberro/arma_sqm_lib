@@ -1,0 +1,5 @@
+.venv/
+.idea/
+localjson/
+data/
+!data/PLACE_MISSION_SQM_HERE
