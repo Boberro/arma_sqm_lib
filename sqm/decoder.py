@@ -181,14 +181,6 @@ if __name__ == '__main__':
         print "test_class: {} is equal {} ?  ->  {}".format(str(obj), str(file_data), obj == file_data)
 
 
-    def test_mission_sqm():
-        f = open('data/mission.sqm')
-        file_str = f.read()
-        obj = scan_sqm(file_str)
-        print "mission.sqm data: {}".format(str(obj))
-
-
     test_attribute()
     test_list()
     test_class()
-    test_mission_sqm()
